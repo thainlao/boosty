@@ -1,0 +1,331 @@
+.subdashboard {
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(235, 230, 230);
+}
+
+.subdash_logo {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.change_bg {
+    position: absolute;
+    left: 95%;
+    top: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.change_bg h6 {
+    transform: translate(-90px);
+    white-space: nowrap;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.change_img {
+    height: 20px;
+    width: 20px;
+    background-color: #f17f55;
+    padding: 6px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+&:hover{
+    transform: rotate(35deg);
+}}
+
+.change_img_but {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.change_img_but_ava {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.subdash_logo_empty {
+    background-color: #f15f2c;
+    width: 100%;
+    height: 35vh;
+}
+
+.subdashlogo {
+    position: relative;
+}
+
+.subdasglogo_text {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: start;
+    height: 100px;
+}
+
+.subdasglogo_text h2 {
+    font-weight: 400;
+}
+
+.subdasglogo_text h3 {
+    font-weight: 400;
+    color: rgb(70, 66, 66);
+}
+
+.edit_name {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit_name div {
+    display: flex;
+    align-items: center;
+}
+
+.edit_name input {
+    padding: 9px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    font-size: 1rem;
+}
+
+.edit_name div img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.edit_name button {
+    background-color: #f15f2c;
+    border: 1px solid silver;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease-in;
+&:hover{
+    background-color: #f17f55;
+}}
+
+.subdashlogo h2 {
+    color: rgb(17, 16, 16);
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.subdashlogo h3 {
+    color: rgb(17, 16, 16);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.subdashboard_section {
+    display: flex;
+    align-items: start;
+    margin: 0 auto;
+    max-width: 1100px;
+    gap: 0.5rem;
+}
+
+.changegearimg {
+    position: absolute;
+    left: 12%;
+    top: 8%;
+    transform: translate(-50%,-50%);
+}
+
+.subdashboard_left {
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -175px;
+    padding-bottom: 20px;
+}
+
+.subdashboard_left_avatar {
+    height: 280px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    position: relative;
+}
+
+.subdashboard_noavatar {
+    display: flex;
+    position: relative;
+    background-color: white;
+}
+
+.subdashboard_noavatar span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+}
+
+.subdashboard_left_avatar_noimg {
+    height: 280px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    background-color: #f15f2c;
+}
+
+
+.subdashboard_left_button_sign {
+    width: 90%;
+    padding: 8px;
+    background-color: rgb(243, 236, 236);
+    color: #000000;
+    border-radius: 8px;
+    border: 1px solid black;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px grey;
+    margin-top: 10px;
+&:hover{
+    transform: scale(1.02);
+}}
+
+.subdashboard_left_button_unsign{
+    width: 90%;
+    padding: 8px;
+    background-color: white;
+    color: #f15f2c;
+    border-radius: 8px;
+    border: 1px solid #f15f2c;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px grey;
+    margin-top: 10px;
+&:hover{
+    border: 1px solid #f15f2c;
+    color: #f15f2c;
+    transform: scale(1.02);
+}}
+
+.subdashboard_left h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.subdashboard_left h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.line_subdash {
+    width: 100%;
+    height: 1px;
+    background-color: silver;
+}
+
+.subdashboard_section h1{
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 400;
+}
+
+/* center */
+
+.subdashboard_center {
+    width: 700px;
+}
+
+.subdashboard_center_part {
+    background-color: rgb(255, 255, 255);
+    min-height: 60vh;
+    height: auto;
+    border-radius: 12px;
+}
+
+.subdashboard_center_part_center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.subdashboard_center_part_center button {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: #f15f2c;
+    transition: all 0.2s ease-in;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px black;
+&:hover{
+    background-color: #f17f55;
+    box-shadow: 0px 0px 9px black;
+}}
+
+/* right part */
+.subdashboard_right {
+    width: 270px;
+}
+
+.subdashboard_right_part {
+    background-color: white;
+    min-height: 100vh;
+    height: auto;
+    border-radius: 12px;
+}
+
+.sign_subs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 85%;
+}
+
+.sign_subs div h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.sign_subs div h2 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.sign_subs div h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.sign_subs div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    padding: 7px;
+    border-bottom: 1px solid silver;
+    height: 250px;
+    position: relative;
+}
+
+.sign_subs button {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%,-50%);
+}

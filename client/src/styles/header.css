@@ -1,0 +1,74 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px;
+    background-color: #fff; /* Замените цвет фона на ваш выбор */
+    border-bottom: 1px solid #ddd; /* Добавьте границу снизу, если нужно */
+    z-index: 1000;
+}
+
+.header_left {
+    margin-left: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.header_right {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.login_button {
+    background-color: #f15f2c !important;
+    color: white;
+    border: none !important;
+&:hover{
+    background-color: #dd5929 !important;
+    color: white !important;
+}}
+
+.header_right button {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    border: 1px solid rgb(207, 185, 185);
+&:hover{
+    color: #f15f2c;
+}}
+
+.header_right img {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    border: 1px solid #f15f2c;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.headerline {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(230, 216, 216);
+}
+
+.become_author {
+    transition: all 0.2s ease-in;
+&:hover{
+    background-color: #dd5929;
+    color: white !important;
+    border: 1px solid #dd5929;
+}}
